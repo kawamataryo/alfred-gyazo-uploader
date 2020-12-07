@@ -15,7 +15,11 @@ Alfred-workflow for easy file uploading to [Gyazo](https://gyazo.com).
 Requires the Alfred 3 or 4 [Powerpack](https://www.alfredapp.com/powerpack/), [Node.js](https://nodejs.org) 12+.
 
 #### With NPM
-Install with npm.
+~~Install with npm.~~
+
+**2020/12/07**  
+Installation on npm will fail because of this [issue](https://github.com/SamVerschueren/alfred-link/issues/22).  
+Please install manually from [here](https://github.com/kawamataryo/alfred-gyazo-uploader/releases)
 
 ```
 $ npm i -g alfred-gyazo-uploader
