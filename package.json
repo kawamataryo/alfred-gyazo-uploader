@@ -1,6 +1,6 @@
 {
   "name": "alfred-gyazo-uploader",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Alfred-workflow for easy file uploading to Gyazo.",
   "homepage": "https://github.com/kawamataryo/alfred-gyazo-uploader",
   "main": "index.js",
