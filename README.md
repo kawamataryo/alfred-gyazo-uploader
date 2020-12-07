@@ -4,7 +4,7 @@
 
 Alfred-workflow for easy file uploading to [Gyazo](https://gyazo.com).
 
-# Features
+## Features
 
 - Upload selected jpeg, png and gif files to Gyazo
 - Paste the public URL of the uploaded image to the clipboard in Markdown format
@@ -14,10 +14,10 @@ Alfred-workflow for easy file uploading to [Gyazo](https://gyazo.com).
 ## Install
 Requires the Alfred 3 or 4 [Powerpack](https://www.alfredapp.com/powerpack/), [Node.js](https://nodejs.org) 12+.
 
-#### Manually
+### Manually
 [download the workflow directly](https://github.com/kawamataryo/alfred-gyazo-uploader/releases).
 
-#### With NPM
+### With NPM
 ~~Install with npm.~~
 
 **2020/12/07**  
