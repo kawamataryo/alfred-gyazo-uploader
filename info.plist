@@ -218,7 +218,10 @@
 		</dict>
 	</array>
 	<key>readme</key>
-	<string></string>
+	<string>Alfred-workflow for easy file uploading to Gyazo.
+
+- Upload selected jpeg, png and gif files to Gyazo.
+- Paste the public URL of the uploaded image to the clipboard in Markdown format.</string>
 	<key>uidata</key>
 	<dict>
 		<key>45C24BE1-3D03-4656-97EF-7A66AA89403B</key>
@@ -274,7 +277,7 @@
 		<string>GYAZO_API_TOKEN</string>
 	</array>
 	<key>version</key>
-	<string></string>
+	<string>v0.1.0</string>
 	<key>webaddress</key>
 	<string>https://github.com/kawamataryo/alfred-gyazo-uploader</string>
 </dict>

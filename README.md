@@ -36,7 +36,7 @@ You need to set the following environment variables before use.
 
 |name|default|value|
 |---|---|---|
-|GYAZO_API_TOKEN | - | Set the Gyazo API TOKEN. Get the API token [here](https://gyazo.com/api?lang=en) |
+|GYAZO_API_TOKEN | - | Set the Gyazo API TOKEN. Get the API token [here](https://gyazo.com/api?lang=en). |
 
 ![](https://i.gyazo.com/bfd53087ad1706d422a5644d2c3d04b5.png)
 

@@ -1,4 +1,4 @@
-import 'alfy';
+import alfy from 'alfy';
 import { getSelectionFilsPath } from "./lib/getSelectionFilsPath.js"
 import { uploadImage } from "./lib/gyazoClient.js"
 import { isValidFileType } from "./lib/validate";
@@ -26,9 +26,13 @@ const main = async () => {
     return
   }
 
-  const res = await uploadImage(files[0], API_TOKEN)
-
-  console.log(`![](${res.url})`)
+  try {
+    const res = await uploadImage(file, API_TOKEN)
+    console.log(`![](${res.url})`)
+  } catch(e) {
+    console.log('\'ERROR: Gyazo API TOKEN is invalid.\'')
+    alfy.log(e)
+  }
 }
 
 await main();
