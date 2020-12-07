@@ -93,9 +93,9 @@
 				<key>removeextension</key>
 				<false/>
 				<key>text</key>
-				<string></string>
+				<string>{query}</string>
 				<key>title</key>
-				<string>⚠️ {query}</string>
+				<string>⚠️ ERROR</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.output.notification</string>
