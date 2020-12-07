@@ -2,6 +2,9 @@ import alfy from 'alfy';
 import { getSelectionFilsPath } from "./lib/getSelectionFilsPath.js"
 import { uploadImage } from "./lib/gyazoClient.js"
 import { isValidFileType } from "./lib/validate";
+import alfredNotifier from "alfred-notifier";
+
+alfredNotifier();
 
 const TARGET_FILE_TYPES = ["jpg", "png", "gif"];
 const API_TOKEN = process.env.GYAZO_API_TOKEN
