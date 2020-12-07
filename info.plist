@@ -12,7 +12,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>F84FE12B-19EB-4EB5-A780-9AE7B3417823</string>
+				<string>DA57E825-3252-4C05-82B8-ED0C9C53D1C7</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -24,7 +24,7 @@
 			</dict>
 			<dict>
 				<key>destinationuid</key>
-				<string>DA57E825-3252-4C05-82B8-ED0C9C53D1C7</string>
+				<string>F84FE12B-19EB-4EB5-A780-9AE7B3417823</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -93,14 +93,52 @@
 				<key>removeextension</key>
 				<false/>
 				<key>text</key>
-				<string>{query}</string>
+				<string>Copied public url to your clipboard.</string>
 				<key>title</key>
-				<string>⚠️ ERROR</string>
+				<string>Uploaded successfully 🎉</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.output.notification</string>
 			<key>uid</key>
-			<string>F84FE12B-19EB-4EB5-A780-9AE7B3417823</string>
+			<string>45C24BE1-3D03-4656-97EF-7A66AA89403B</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>DA57E825-3252-4C05-82B8-ED0C9C53D1C7</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>gyazou</string>
+				<key>subtext</key>
+				<string>The selected image will be uploaded to Gyazo</string>
+				<key>text</key>
+				<string>Upload to Gyazo</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>8C34BA3F-723B-4581-960E-64ABFB6D792D</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -130,27 +168,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>gyazou</string>
-				<key>subtext</key>
-				<string>The selected image will be uploaded to Gyazo</string>
-				<key>text</key>
-				<string>Upload to Gyazo</string>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>8C34BA3F-723B-4581-960E-64ABFB6D792D</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>conditions</key>
 				<array>
 					<dict>
@@ -161,7 +178,7 @@
 						<key>matchmode</key>
 						<integer>4</integer>
 						<key>matchstring</key>
-						<string>.*ERROR.*</string>
+						<string>.*https:.*</string>
 						<key>outputlabel</key>
 						<string>{query}</string>
 						<key>uid</key>
@@ -188,33 +205,16 @@
 				<key>removeextension</key>
 				<false/>
 				<key>text</key>
-				<string>Copied public url to your clipboard.</string>
+				<string>{query}</string>
 				<key>title</key>
-				<string>Uploaded successfully 🎉</string>
+				<string>⚠️ ERROR</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.output.notification</string>
 			<key>uid</key>
-			<string>45C24BE1-3D03-4656-97EF-7A66AA89403B</string>
+			<string>F84FE12B-19EB-4EB5-A780-9AE7B3417823</string>
 			<key>version</key>
 			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>autopaste</key>
-				<false/>
-				<key>clipboardtext</key>
-				<string>{query}</string>
-				<key>transient</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.clipboard</string>
-			<key>uid</key>
-			<string>DA57E825-3252-4C05-82B8-ED0C9C53D1C7</string>
-			<key>version</key>
-			<integer>3</integer>
 		</dict>
 	</array>
 	<key>readme</key>
@@ -227,9 +227,9 @@
 		<key>45C24BE1-3D03-4656-97EF-7A66AA89403B</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1000</integer>
+			<integer>995</integer>
 			<key>ypos</key>
-			<integer>660</integer>
+			<integer>490</integer>
 		</dict>
 		<key>5D6E1769-77B8-4A34-85CB-CF93FECFC2CD</key>
 		<dict>
@@ -255,16 +255,16 @@
 		<key>DA57E825-3252-4C05-82B8-ED0C9C53D1C7</key>
 		<dict>
 			<key>xpos</key>
-			<integer>830</integer>
+			<integer>820</integer>
 			<key>ypos</key>
-			<integer>660</integer>
+			<integer>490</integer>
 		</dict>
 		<key>F84FE12B-19EB-4EB5-A780-9AE7B3417823</key>
 		<dict>
 			<key>xpos</key>
 			<integer>830</integer>
 			<key>ypos</key>
-			<integer>480</integer>
+			<integer>660</integer>
 		</dict>
 	</dict>
 	<key>variables</key>
@@ -277,7 +277,7 @@
 		<string>GYAZO_API_TOKEN</string>
 	</array>
 	<key>version</key>
-	<string>v0.1.2</string>
+	<string>v0.1.6</string>
 	<key>webaddress</key>
 	<string>https://github.com/kawamataryo/alfred-gyazo-uploader</string>
 </dict>

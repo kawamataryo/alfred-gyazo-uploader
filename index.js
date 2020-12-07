@@ -12,7 +12,7 @@ const API_TOKEN = process.env.GYAZO_API_TOKEN
 const main = async () => {
   const files = await getSelectionFilsPath();
   if (files.length !== 1) {
-    console.log('ERROR: Multiple files selected.');
+    console.log('Multiple files selected.');
     return
   }
 
@@ -20,12 +20,12 @@ const main = async () => {
 
   const isValid = await isValidFileType(file, TARGET_FILE_TYPES)
   if (!isValid) {
-    console.log('ERROR: Invalid file type selected.')
+    console.log('Invalid file type selected.')
     return
   }
 
   if(!API_TOKEN){
-    console.log('ERROR: Gyazo API TOKEN is not set.')
+    console.log('Gyazo API TOKEN is not set.')
     return
   }
 
@@ -33,7 +33,7 @@ const main = async () => {
     const res = await uploadImage(file, API_TOKEN)
     console.log(`![](${res.url})`)
   } catch(e) {
-    console.log('\'ERROR: Gyazo API TOKEN is invalid.\'')
+    console.log('Gyazo API token is invalid.')
     alfy.log(e)
   }
 }
