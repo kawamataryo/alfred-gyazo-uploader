@@ -11,6 +11,7 @@
   "author": "Ryo Kawamata <ba068082@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "alfred-link": "^0.3.1",
     "alfy": "^0.10.0",
     "file-type": "^16.0.1",
     "gyazo-api": "^0.3.1"
