@@ -4,6 +4,7 @@ import { uploadImage } from "./lib/gyazoClient.js"
 import { isValidFileType } from "./lib/validate";
 
 const TARGET_FILE_TYPES = ["jpg", "png", "gif"];
+const API_TOKEN = process.env.GYAZO_API_TOKEN
 
 const main = async () => {
   const files = await getSelectionFilsPath();
@@ -20,14 +21,14 @@ const main = async () => {
     return
   }
 
-  const res = await uploadImage(files[0])
-
-  if (process.env.FORMAT_TO_MARKDOWN === "true") {
-    console.log(`![](${res.url})`)
-    return;
+  if(!API_TOKEN){
+    console.log('ERROR: Gyazo API TOKEN is not set.')
+    return
   }
 
-  console.log(res.url)
+  const res = await uploadImage(files[0], API_TOKEN)
+
+  console.log(`![](${res.url})`)
 }
 
 await main();

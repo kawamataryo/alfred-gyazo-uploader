@@ -133,11 +133,11 @@
 				<key>argumenttype</key>
 				<integer>2</integer>
 				<key>keyword</key>
-				<string>.gyazo</string>
+				<string>gyazou</string>
 				<key>subtext</key>
-				<string></string>
+				<string>The selected image will be uploaded to Gyazo</string>
 				<key>text</key>
-				<string>gyazo</string>
+				<string>Upload to Gyazo</string>
 				<key>withspace</key>
 				<false/>
 			</dict>
@@ -188,7 +188,7 @@
 				<key>removeextension</key>
 				<false/>
 				<key>text</key>
-				<string></string>
+				<string>Copied public url to your clipboard.</string>
 				<key>title</key>
 				<string>Uploaded successfully 🎉</string>
 			</dict>
@@ -231,7 +231,7 @@
 		<key>5D6E1769-77B8-4A34-85CB-CF93FECFC2CD</key>
 		<dict>
 			<key>xpos</key>
-			<integer>670</integer>
+			<integer>650</integer>
 			<key>ypos</key>
 			<integer>590</integer>
 		</dict>
@@ -266,19 +266,16 @@
 	</dict>
 	<key>variables</key>
 	<dict>
-		<key>FORMAT_TO_MARKDOWN</key>
-		<string>true</string>
 		<key>GYAZO_API_TOKEN</key>
 		<string></string>
 	</dict>
 	<key>variablesdontexport</key>
 	<array>
-		<string>FORMAT_TO_MARKDOWN</string>
 		<string>GYAZO_API_TOKEN</string>
 	</array>
 	<key>version</key>
 	<string></string>
 	<key>webaddress</key>
-	<string></string>
+	<string>https://github.com/kawamataryo/alfred-gyazo-uploader</string>
 </dict>
 </plist>
