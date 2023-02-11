@@ -12,7 +12,7 @@
   "license": "MIT",
   "dependencies": {
     "alfred-notifier": "^0.2.3",
-    "alfy": "^0.10.0",
+    "alfy": "^1.1.0",
     "file-type": "^16.0.1",
     "gyazo-api": "^0.3.1",
     "install": "^0.13.0",
